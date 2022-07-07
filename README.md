@@ -12,23 +12,11 @@ Should also work with PHP 8.0.
 
 ### Composer
 
-To install the bindings via [Composer](https://getcomposer.org/), add the following to `composer.json`:
+To install the bindings via [Composer](https://getcomposer.org/), run following command:
 
-```json
-{
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/Utreon/cielo24-php.git"
-    }
-  ],
-  "require": {
-    "Utreon/cielo24-php": "*@dev"
-  }
-}
+```shell
+composer require utreon/cielo24-php 
 ```
-
-Then run `composer install`
 
 ### Manual Installation
 
